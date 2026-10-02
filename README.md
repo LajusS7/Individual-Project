@@ -1,7 +1,7 @@
 Description:
 This Website is a simple Valorant character guide, specifically for the characters that are in the Duelist role.
 
-How to run;
+How to run:
 Download all 3 files before running the html, which should lead you to the website. There, you will be given the 8 duelists and a button below their names that  say "View pros and cons." Clicking one for a agent gives said agents pros and cons as well as the official short description of the agent above both boxes.
 
 Data source credits:

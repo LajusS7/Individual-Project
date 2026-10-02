@@ -1,0 +1,95 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0f1923;
+  color: #ece8e1;
+}
+
+header {
+  background-color: #ff4655;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: #ff4655;
+}
+
+button {
+  padding: 8px 14px;
+  font-size: 16px;
+  background-color: #ff4655;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #c93340;
+}
+
+#agent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #1f2933;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.card img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.card.selected {
+  border-color: #ff4655;
+}
+
+.pros-cons {
+  display: flex;
+  gap: 20px;
+}
+
+.pros-cons > div {
+  flex: 1;
+  background-color: #1f2933;
+  padding: 15px;
+}
+
+.pros h3 {
+  color: #4caf50;
+}
+
+.cons h3 {
+  color: #ff4655;
+}
+
+.error {
+  color: #ff8a8a;
+}
+
+.hidden {
+  display: none;
+}
